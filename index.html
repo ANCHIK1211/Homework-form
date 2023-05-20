@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <p>
+    <h1>Задание 1</h1>
+    </p>
+    <form action="" method="">
+        <h2>ОСТАВЬТЕ ВАШИ КОНТАКТЫ</h2>
+        <p>
+            <label>
+                Имя<br>
+                <input type="text" name="name">
+            </label>
+        </p>
+        <p>
+            <label>
+                Телефон <br>
+                <input type="tel" name="phonenumber">
+            </label>
+        </p>
+        <p>
+            <label>
+                Почта <br>
+                <input type="email" name="email">
+            </label>
+        </p>
+        <input type="submit" value="ЗАПРОСИТЬ ЦЕНУ">
+        <p>Нажимая на кнопку, вы даёте согласие на обработку своих персональных данных в соответствии с политикой
+            конфиденциальности</p>
+    </form>
+    <p>
+
+    <h1>Задание 2</h1>
+    </p>
+    <form action="">
+        <p>
+            <label>
+                Введите ФИО <br>
+                <input type="text" name="name">
+            </label>
+        </p>
+        <p>
+            <label>
+                Введите пароль <br>
+                <input type="password" name="password">
+            </label>
+        </p>
+        <p>Какой диск вы хотите получить?</p>
+        <label><input type="radio" name="CD">CD</label><br>
+        <label><input type="radio" name="DVD">DVD</label>
+        <p>Какие обучающие курсы вы хотите видеть на диске?</p>
+        <label><input type="checkbox" name="photoshop">Курсы по фотошопу</label><br>
+        <label><input type="checkbox" name="Dreanweaver">Курсы по Adobe Dreamweaver</label><br>
+        <label><input type="checkbox" name="PHP">Курсы по PHP</label>
+        <p>Выберите способ доставки</p>
+        <select name="delivery" id="">
+            <option value="courier">Курьером</option>
+            <option value="pickup">Самовывозом</option>
+        </select>
+        <p>
+            Введите адрес доставки: <br>
+            <textarea name="adress" id="" cols="50" rows="5"></textarea>
+        </p>
+        <input type="submit" value="Сделать заказ">
+        <button type="reset">Отмена</button>
+    </form>
+    
+    <h1>Задание 3</h1>
+    <form action="">
+        <p>Пожалуйста, заполните форму. Обязательные поля помечены *</p>
+        <p>Контактная информация</p>
+        <p><label>Имя *<input type="text" required name="name"></label></p>
+        <p><label>Телефон <input type="tel" name="phonenumber"></label></p>
+        <p><label>Email *<input type="email" required name="email"></label></p>
+        <p>Персональная информация</p>
+        <p><label>Возраст *<input type="number" required name="ages"></label></p>
+        <label>
+            Пол
+            <select name="gender" id="">
+                <option value="male">Мужской</option>
+                <option value="female">Женский</option>
+            </select>
+        </label>
+        <p>
+            <label>Перечислите личные качества <textarea name="qualities" id="" cols="30" rows="3"></textarea></label>
+        </p>
+        <p>Выберите выших любимых животных</p>
+        <label><input type="checkbox" name="zebra">Зебра</label>
+        <label><input type="checkbox" name="cat">Кошка</label>
+        <label><input type="checkbox" name="anakonda">Анаконда</label><br>
+        <label><input type="checkbox" name="elephant">Слон</label>
+        <label><input type="checkbox" name="antelope">Антилопа</label>
+        <label><input type="checkbox" name="pigeon">Голубь</label>
+        <label><input type="checkbox" name="crab">Краб</label>
+        <p><input type="submit" value="Отправить информацию"></p>
+    </form>
+</body>
+
+</html>
